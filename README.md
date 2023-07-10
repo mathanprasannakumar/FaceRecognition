@@ -34,7 +34,7 @@
    <li>Here Model will return vector of size(512) for each image </li>
    
 
-   ![triplet loss](./triplet.png)
+   ![triplet loss](triplet.png)
    <li>Anchor embedding and input image embedding is calculated</li>
    
  </ul>
@@ -45,7 +45,7 @@
  
  <p>similarity between the two embedding is measured using cosine distance, if the cosine distance is less than the threshold fixed then the both anchor and input image are similiar otherwise not similiar<p>
  
- ![cosine](./cosine.png)
+ ![cosine](cosine.png)
  
  <b>Note: Here the implementation will only count the first detected face in the overall frame</b>
    
