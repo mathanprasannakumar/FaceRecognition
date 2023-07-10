@@ -2,12 +2,12 @@
 
 <h3>FaceRecognition implementation using <b>Facenet for verification and Mediapipe for face detection</b></h3>
 
-<b>Note: The model is pretrained model, so no training process is done by me ,the whole architecture and weights are taken from  <a href="https://github.com/serengil/deepface/tree/master">Deepface</b> <p>Kindly checkout this repository</p>
+<b>Note: The model is pretrained model, so no training process is done by me ,the whole architecture and weights are taken from  <a href="https://github.com/serengil/deepface/tree/master">Deepface</b>
 
 <h3>Goal</h3>
 <p>The main purpose of this implementation is to build a attendance face recogntion system , this repo is just a simple implementation to get an intuition about how the whole recogntion is working</p>
 
-<h3>For a full End to End Face Recogntion Web Application check here <a href="#">Facewebapp</a> 
+<h3>For a full End to End Face Recogntion Web Application check here <a href="#">Facewebapp</a></h3>
 
 <h3>1)Face Detection<h3>
 <ul> 
@@ -24,8 +24,7 @@
 <h3>2) Face verification<h3>
 <ul>
    <li>Face Net model is used <li>
-   
-   <li>FaceNet is the name of the facial recognition system that was proposed by Google Researchers in 2015 in the paper titled FaceNet: A Unified Embedding for Face Recognition and Clustering. It achieved state-of-the-art results in the many benchmark face recognition dataset such as Labeled Faces in the Wild (LFW) and Youtube Face Database.</li>
+   <li>FaceNet was proposed by Google Researchers in 2015 in the paper titled FaceNet: A Unified Embedding for Face Recognition and Clustering. It achieved state-of-the-art results in the many benchmark face recognition dataset such as Labeled Faces in the Wild (LFW) and Youtube Face Database.</li>
    
    <p> Kindly Check this offical paper <a href="https://arxiv.org/abs/1503.03832">facenet</a></p>
    
