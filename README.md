@@ -2,14 +2,14 @@
 
 <h3>FaceRecognition implementation using <b>Facenet for verification and Mediapipe for face detection</b></h3>
 
-<b>Note: The model is pretrained model, so no training process is done by me ,the whole architecture and weights are taken from  <a href="https://github.com/serengil/deepface/tree/master">Deepface</b>
+<p>Note: The model is pretrained model, so no training process is done by me ,the whole architecture and weights are taken from  <a href="https://github.com/serengil/deepface/tree/master"><b>Deepface</b></p>
 
 <h3>Goal</h3>
 <p>The main purpose of this implementation is to build a attendance face recogntion system , this repo is just a simple implementation to get an intuition about how the whole recogntion is working</p>
 
 <h3>For a full End to End Face Recogntion Web Application check here <a href="#">Facewebapp</a></h3>
 
-<h3>1)Face Detection<h3>
+<h3>1)Face Detection</h3>
 <ul> 
 
    <li>Here, media pipe face detection is used </li>
@@ -21,7 +21,7 @@
    <li>Cropped faced are resized based on the size required by the Face Recognition Model</li>
 </ul>
 
-<h3>2) Face verification<h3>
+<h3>2) Face verification</h3>
 <ul>
    <li>Face Net model is used <li>
    <li>FaceNet was proposed by Google Researchers in 2015 in the paper titled FaceNet: A Unified Embedding for Face Recognition and Clustering. It achieved state-of-the-art results in the many benchmark face recognition dataset such as Labeled Faces in the Wild (LFW) and Youtube Face Database.</li>
@@ -42,9 +42,9 @@
  
  
  
- <h3>3) Cosine distance<h3>
+ <h3>3) Cosine distance</h3>
  
- <h4>similarity between the two embedding is measured using cosine distance, if the cosine distance is less than the threshold fixed then the both anchor and input image are similiar otherwise not similiar<h4>
+ <p>similarity between the two embedding is measured using cosine distance, if the cosine distance is less than the threshold fixed then the both anchor and input image are similiar otherwise not similiar<p>
  
  <img src="cosine.png">
  
